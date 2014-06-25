@@ -1,6 +1,6 @@
 {
   "name": "jscons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "the familiar lisp cons in JS, with some Clojuretastic extras.",
   "main": "cons.js",
   "repository": {
