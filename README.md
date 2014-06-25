@@ -69,3 +69,7 @@
 
   Constructs a `Seq` from an array-like. Because a `Seq` is lazy, the elements are only taken out of the array when asked for.
 
+### seq.force()
+
+  Forces the entire `Seq` to be constructed.
+
