@@ -21,13 +21,8 @@ Cons.from = function(arr) {
   if (Cons.instanceOf(arr))
     return arr
 
-  var len = arr.length | 0
-    , s = null
-
-  for (var i = len - 1; i >= 0; i--)
-    s = new List(arr[i], s) 
-
-  return s
+  return Seq.from(arr)
 }
 
 var List = require('./list')
+  , Seq = require('./seq')

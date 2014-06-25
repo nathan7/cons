@@ -18,7 +18,7 @@
 
 ### Cons.from(arr) → List
 
-  Constructs a `List` from an array-like.
+  Constructs a `Seq` from an array-like.
 
 ### Cons.instanceOf(cons) → Boolean
 
