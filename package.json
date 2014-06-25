@@ -1,11 +1,11 @@
 {
-  "name": "cons",
+  "name": "jscons",
   "version": "1.0.0",
   "description": "the familiar lisp cons in JS, with some Clojuretastic extras.",
   "main": "cons.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nathan7/cons.git"
+    "url": "git://github.com/nathan7/jscons.git"
   },
   "keywords": [
     "cons",
@@ -18,7 +18,7 @@
   "author": "Nathan Zadoks",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nathan7/cons/issues"
+    "url": "https://github.com/nathan7/jscons/issues"
   },
-  "homepage": "https://github.com/nathan7/cons"
+  "homepage": "https://github.com/nathan7/jscons"
 }

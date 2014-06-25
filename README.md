@@ -1,13 +1,13 @@
-# cons
+# jscons
 
   the familiar lisp cons in JS, with some Clojuretastic extras.
   an experiment for use with `seq-fns`.
 
 ## Installation
 
-    npm install cons
+    npm install jscons
 
-## var Cons = require('cons')
+## var Cons = require('jscons')
 
   a `Cons` is either `instanceof Cons` or `null`.
 
