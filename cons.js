@@ -18,6 +18,9 @@ Cons.prototype.head = function() { return this._head }
 Cons.prototype.tail = function() { return this._tail }
 
 Cons.from = function(arr) {
+  if (Cons.instanceOf(arr))
+    return arr
+
   var len = arr.length | 0
     , s = null
 

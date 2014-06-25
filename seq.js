@@ -21,6 +21,9 @@ Seq.prototype.tail = function() {
 }
 
 Seq.from = function(arr) {
+  if (List.instanceOf(arr))
+    return arr
+
   return from(arr, 0)()
 }
 
